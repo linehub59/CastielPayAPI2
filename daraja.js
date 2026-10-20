@@ -81,7 +81,7 @@ export async function initiateStkPush({
     TransactionType: config.transactionType,
     Amount: amount,
     PartyA: phone,
-    PartyB: config.shortcode,
+    PartyB: config.till,
     PhoneNumber: phone,
     CallBackURL: config.callbackUrl,
     AccountReference: accountReference.slice(0, 12),

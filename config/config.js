@@ -5,6 +5,7 @@ const required = [
   "DARAJA_CONSUMER_SECRET",
   "DARAJA_PASSKEY",
   "DARAJA_SHORTCODE",
+  "DARAJA_TILL",
   "CALLBACK_URL"
 ];
 
@@ -30,6 +31,7 @@ export const config = {
   consumerSecret: process.env.DARAJA_CONSUMER_SECRET,
   passkey: process.env.DARAJA_PASSKEY,
   shortcode: process.env.DARAJA_SHORTCODE,
+  till: process.env.DARAJA_TILL,
   transactionType:
     process.env.DARAJA_TRANSACTION_TYPE || "CustomerPayBillOnline",
   callbackUrl: process.env.CALLBACK_URL,
